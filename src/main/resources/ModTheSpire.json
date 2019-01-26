@@ -1,0 +1,10 @@
+{
+  "modid": "stshumanmod",
+  "name": "Human Mod",
+  "author_list": ["HumanJBooF"],
+  "description": "Trying to make a mod.",
+  "version": "1.0.0",
+  "sts_version": "${SlayTheSpire.version}",
+  "mts_version": "${ModTheSpire.version}",
+  "dependencies": ["basemod", "stslib"]
+}

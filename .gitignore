@@ -1,0 +1,21 @@
+
+
+*.iml
+target/**
+dependency-reduced-pom.xml
+
+# Local dependency overrides
+dependency_overrides.properties
+
+# Files generated when playing the game
+info.displayconfig
+preferences/
+runs/
+saves/
+sendToDevs/
+twitchconfig.txt
+
+# Ignore editor files
+*.swp
+.idea/*
+src/main/main.iml
