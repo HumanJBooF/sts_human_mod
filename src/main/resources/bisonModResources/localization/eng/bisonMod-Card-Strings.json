@@ -1,0 +1,53 @@
+{
+  "Bison:BisonCommonAttack": {
+    "NAME": "Bark",
+    "DESCRIPTION": "Deal !D! Damage. NL"
+  },
+  "Bison:BisonCommonSkill": {
+    "NAME": "Lie Down",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "Bison:BisonCommonPower": {
+    "NAME": "Hold Place",
+    "DESCRIPTION": "Gain !M! Keyword.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Keywords."
+  },
+  "Bison:BisonUncommonAttack": {
+    "NAME": "Big slap",
+    "DESCRIPTION": "Deal !D! Damage."
+  },
+  "Bison:BisonUncommonSkill": {
+    "NAME": "A Better Defend",
+    "DESCRIPTION": "Gain !B! Plated Armor. Affected by Dexterity."
+  },
+  "Bison:BisonUncommonPower": {
+    "NAME": "Weirdness",
+    "DESCRIPTION": "Gain X Keywords.",
+    "UPGRADE_DESCRIPTION": "Gain X +1 Keywords."
+  },
+  "Bison:BisonRareAttack": {
+    "NAME": "TOUCH",
+    "DESCRIPTION": "Deal !D! Damage."
+  },
+  "Bison:BisonRareSkill": {
+    "NAME": "For Each Loop x2",
+    "DESCRIPTION": "Apply !M! vulnerable to all enemies, 2 times.",
+    "UPGRADE_DESCRIPTION": "Apply !M! vulnerable to all enemies, 3 times."
+  },
+  "Bison:BisonRarePower": {
+    "NAME": "In-Progress Form",
+    "DESCRIPTION": "At the start of your turn, play a TOUCH."
+  },
+  "Bison:BisonAttackWithVariable": {
+    "NAME": "Special Strike",
+    "DESCRIPTION": "Deal !D! Damage [R] times. NL (Deal !theDefault:ENERGY_DAMAGE! damage total.)"
+  },
+  "Bison:BisonSecondMagicNumberSkill": {
+    "NAME": "Cool 2 Number Card",
+    "DESCRIPTION": "Apply !M! vulnerable and !theDefault:SecondMagic! poison to an enemy."
+  },
+  "Bison:OrbSkill": {
+    "NAME": "Get Orb",
+    "DESCRIPTION": "Channel 1 Default Orb."
+  }
+}

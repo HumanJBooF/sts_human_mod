@@ -1,10 +1,12 @@
 {
-  "modid": "stshumanmod",
-  "name": "Human Mod",
+  "modid": "bison",
+  "name": "Bison Mod",
   "author_list": ["HumanJBooF"],
-  "description": "Trying to make a mod.",
+  "description": "Attempting to make a mod",
   "version": "1.0.0",
-  "sts_version": "${SlayTheSpire.version}",
-  "mts_version": "${ModTheSpire.version}",
-  "dependencies": ["basemod", "stslib"]
+  "sts_version": "01-26-2019",
+  "mts_version": "3.1.0",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
 }
+

@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>sts_human_mod</groupId>
-    <artifactId>sts_human_mod</artifactId>
+    <groupId>bisonMod</groupId>
+    <artifactId>bisonMod</artifactId>
     <version>v1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>StSHumanMod</name>
+    <name>bisonMod</name>
     <description>attempting to mod Slay the spire</description>
 
     <dependencies>
@@ -34,6 +34,13 @@
             <scope>system</scope>
             <systemPath>${basedir}/../lib/ModTheSpire.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>StSlib</groupId>
+            <artifactId>StSlib</artifactId>
+            <version>1.13.2</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../lib/StSLib.jar</systemPath>
+        </dependency>
     </dependencies>
 
     <build>
@@ -57,7 +64,7 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/ExampleMod.jar" tofile="../lib/ExampleMod.jar"/>
+                                <copy file="target/StsHumanMod.jar" tofile="../lib/bisonMod.jar"/>
                             </target>
                         </configuration>
                         <goals>
