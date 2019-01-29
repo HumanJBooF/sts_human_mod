@@ -192,13 +192,13 @@ public class Bison extends CustomPlayer {
     // Should return the card color enum to be associated with your character.
     @Override
     public AbstractCard.CardColor getCardColor() {
-        return AbstractCardEnum.DEFAULT_GRAY;
+        return AbstractCardEnum.BISON_BROWN;
     }
 
     // Should return a color object to be used to color the trail of moving cards
     @Override
     public Color getCardTrailColor() {
-        return bisonMod.BISON_GRAY;
+        return bisonMod.BISON_BROWN;
     }
 
     // Should return a BitmapFont object that you can use to customize how your
@@ -234,13 +234,13 @@ public class Bison extends CustomPlayer {
     // Should return a Color object to be used to color the miniature card images in run history.
     @Override
     public Color getCardRenderColor() {
-        return bisonMod.BISON_GRAY;
+        return bisonMod.BISON_BROWN;
     }
 
     // Should return a Color object to be used as screen tint effect when your
     // character attacks the heart.
     @Override
-    public Color getSlashAttackColor() { return bisonMod.BISON_GRAY; }
+    public Color getSlashAttackColor() { return bisonMod.BISON_BROWN; }
 
     // Should return an AttackEffect array of any size greater than 0. These effects
     // will be played in sequence as your character's finishing combo on the heart.

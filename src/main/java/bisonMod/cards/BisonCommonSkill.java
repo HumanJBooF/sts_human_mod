@@ -41,7 +41,7 @@ public class BisonCommonSkill extends CustomCard {
     private static final CardRarity RARITY = CardRarity.BASIC;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardType TYPE = CardType.SKILL;
-    public static final CardColor COLOR = AbstractCardEnum.DEFAULT_GRAY;
+    public static final CardColor COLOR = AbstractCardEnum.BISON_BROWN;
 
     private static final int COST = 1;
     private static final int BLOCK = 5;

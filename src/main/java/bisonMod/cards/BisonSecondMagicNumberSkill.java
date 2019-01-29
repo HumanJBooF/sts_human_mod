@@ -45,7 +45,7 @@ public class BisonSecondMagicNumberSkill extends AbstractBisonCard {
     private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final CardType TYPE = CardType.SKILL;
-    public static final CardColor COLOR = AbstractCardEnum.DEFAULT_GRAY;
+    public static final CardColor COLOR = AbstractCardEnum.BISON_BROWN;
 
     private static final int COST = 1;
 

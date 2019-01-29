@@ -50,7 +50,7 @@ public class bisonMod implements
 
     // Colors (RGB)
     // Character Color
-    public static final Color BISON_GRAY = CardHelper.getColor(64.0f, 70.0f, 70.0f);
+    public static final Color BISON_BROWN = CardHelper.getColor(102.0f, 51.0f, 0.0f);
 
     // Potion Colors in RGB
     public static final Color PLACEHOLDER_POTION_LIQUID = CardHelper.getColor(209.0f, 53.0f, 18.0f); // Orange-ish Red
@@ -96,10 +96,10 @@ public class bisonMod implements
 
         logger.info("Done subscribing");
 
-        logger.info("Creating the color " + AbstractCardEnum.DEFAULT_GRAY.toString());
+        logger.info("Creating the color " + AbstractCardEnum.BISON_BROWN.toString());
 
-        BaseMod.addColor(AbstractCardEnum.DEFAULT_GRAY, BISON_GRAY, BISON_GRAY, BISON_GRAY,
-                BISON_GRAY, BISON_GRAY, BISON_GRAY, BISON_GRAY,
+        BaseMod.addColor(AbstractCardEnum.BISON_BROWN, BISON_BROWN, BISON_BROWN, BISON_BROWN,
+                BISON_BROWN, BISON_BROWN, BISON_BROWN, BISON_BROWN,
                 ATTACK_BISON_GRAY, SKILL_BISON_GRAY, POWER_BISON_GRAY, ENERGY_ORB_BISON_GRAY,
                 ATTACK_BISON_GRAY_PORTRAIT, SKILL_BISON_GRAY_PORTRAIT, POWER_BISON_GRAY_PORTRAIT,
                 ENERGY_ORB_BISON_GRAY_PORTRAIT, CARD_ENERGY_ORB);
@@ -181,8 +181,8 @@ public class bisonMod implements
         logger.info("Adding relics");
 
         // This adds a character specific relic. Only when you play with the mentioned color, will you get this relic.
-        BaseMod.addRelicToCustomPool(new PlaceholderRelic(), AbstractCardEnum.DEFAULT_GRAY);
-        BaseMod.addRelicToCustomPool(new BisonClickableRelic(), AbstractCardEnum.DEFAULT_GRAY);
+        BaseMod.addRelicToCustomPool(new PlaceholderRelic(), AbstractCardEnum.BISON_BROWN);
+        BaseMod.addRelicToCustomPool(new BisonClickableRelic(), AbstractCardEnum.BISON_BROWN);
 
         // This adds a relic to the Shared pool. Every character can find this relic.
         BaseMod.addRelic(new PlaceholderRelic2(), RelicType.SHARED);
